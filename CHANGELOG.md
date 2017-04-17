@@ -1,5 +1,58 @@
 <pre>
 
+Version 0.5.0
+=============
+
+Info
+----
+Date ....: 17/04/2017
+Purpose .: Manual Coded Swing Projects
+---
+
+Additions
+---------
+> Swing Formularies package
+  org.japo.java.forms
+> Graphic User Interface class template
+  GUI.java
+> Swing Components package
+  org.japo.java.components
+> Component Sample
+  BackgroundPanel.java
+> Events package
+  org.japo.java.events
+> Window   Events Manager Template  - "WEM"
+> Mouse    Events Manager Template  - "MEM"
+> Keyboard Events Manager Template  - "KEM"
+> Action   Events Manager Template  - "AEM"
+> Focus    Events Manager Template  - "FEM"
+> Project Resources Section
+  Resources
+> Graphic Files Resource Package
+  resources/img
+> Graphic File Resource Sample.
+  background.jpg
+---
+
+Updates
+-------
+> README.md
+> CHANGELOG.md
+---
+
+Changes
+-------
+> org.japo.java.main.App.java  - Added method
+  launchGUI - Launch GUI
+> org.japo.java.main.App.java  - Updated method
+  launchApp - Calls "launchGUI"
+---
+
+Deleted
+-------
+> None
+---
+
 Version 0.4.0
 =============
 
