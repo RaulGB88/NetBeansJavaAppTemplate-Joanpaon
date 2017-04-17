@@ -1,5 +1,42 @@
 <pre>
 
+Version 0.4.0
+=============
+
+Info
+----
+Date ....: 17/04/2017
+Purpose .: OOP Code Projects
+---
+
+Additions
+---------
+> Interfaces Package
+  org.japo.java.interfaces
+> Sample Interface
+  ICapacity.java
+> Entities Package
+  org.japo.java.entities
+> Sample Entity
+  Capacity.java
+---
+
+Updates
+-------
+> README.md
+> CHANGELOG.md
+---
+
+Changes
+-------
+> None
+---
+
+Deleted
+-------
+> None
+---
+
 Version 0.3.0
 =============
 
