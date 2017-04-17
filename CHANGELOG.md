@@ -1,5 +1,39 @@
 <pre>
 
+Version 0.2.0
+=============
+
+Info
+----
+Date ....: 17/04/2017
+Purpose .: Modularized Code Projects
+---
+
+Additions
+---------
+> Functional Mechanism App Package
+  org.japo.java.app
+> Functional Mechanism App Class
+  App.java
+---
+
+Updates
+-------
+> Main class dependencies
+> README.md
+> CHANGELOG.md
+---
+
+Changes
+-------
+> None
+---
+
+Deleted
+-------
+> None
+---
+
 Version 0.1.0
 =============
 

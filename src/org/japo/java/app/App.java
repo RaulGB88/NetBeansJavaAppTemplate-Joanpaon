@@ -1,5 +1,5 @@
-/* 
- * Copyright 2017 José A. Pacheco Ondoño - joanpaon@gmail.com.
+/*
+ * Copyright 2016 José A. Pacheco Ondoño - joanpaon@gmail.com.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,25 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.japo.java.main;
-
-import org.japo.java.app.App;
+package org.japo.java.app;
 
 /**
  *
  * @author José A. Pacheco Ondoño - joanpaon@gmail.com
  *
- * Arranque e inicialización de la aplicación
+ * Funcionalidad/Objetivo de la aplicación.
  */
-public class Main {
+public class App {
 
-    // Punto de entrada a la aplicación
-    public static void main(String[] args) {
-        // Crear aplicación
-        App app = new App();
+    // Entrada al Mecanismo Funcional
+    public void launchApp() {
 
-        // Lanzar aplicación
-        app.launchApp();
     }
 
 }
