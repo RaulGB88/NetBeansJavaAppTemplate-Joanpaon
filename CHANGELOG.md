@@ -1,5 +1,38 @@
 <pre>
 
+Version 0.3.0
+=============
+
+Info
+----
+Date ....: 17/04/2017
+Purpose .: Modularized Code + Library Projects
+---
+
+Additions
+---------
+> Local Libraries Code Package
+  org.japo.java.lib
+> Sample Local Library
+  UtilesDNI.java
+---
+
+Updates
+-------
+> README.md
+> CHANGELOG.md
+---
+
+Changes
+-------
+> None
+---
+
+Deleted
+-------
+> None
+---
+
 Version 0.2.0
 =============
 
