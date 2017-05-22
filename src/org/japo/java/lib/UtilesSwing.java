@@ -13,35 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.japo.java.events;
+package org.japo.java.lib;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import org.japo.java.forms.GUI;
+import javax.swing.JFrame;
 
 /**
  *
  * @author José A. Pacheco Ondoño - joanpaon@gmail.com
  */
-public class FEM implements FocusListener {
+public class UtilesSwing {
+    // Cerrar programa
 
-    // Referencia al igu
-    private final GUI gui;
+    public void terminarPrograma(JFrame f) {
+        // Oculta la ventana
+        f.setVisible(false);
 
-    public FEM(GUI gui) {
-        this.gui = gui;
-    }
+        // Devuelve los recursos
+        f.dispose();
 
-    @Override
-    public void focusGained(FocusEvent e) {
-        // Evento de Foco - GANADO
-        // gui.procesarFocoGanado(e);
-    }
-
-    @Override
-    public void focusLost(FocusEvent e) {
-        // Evento de Foco - PERDIDO
-        // gui.procesarFocoPerdido(e);
+        // Cierra el programa
+        System.exit(0);
     }
 
 }

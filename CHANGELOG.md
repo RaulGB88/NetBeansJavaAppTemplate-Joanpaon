@@ -1,5 +1,41 @@
 <pre>
 
+Version 0.5.1
+=============
+
+Info
+----
+Date ....: 22/05/2017
+Purpose .: Manual Coded Swing Projects
+---
+
+Additions
+---------
+> org.japo.java.events.CEM - Change Events Manager
+> org.japo.java.events.MMEM - Mouse Motion Event Manager
+> org.japo.java.events.MMEM - Mouse Wheel Event Manager
+> org.japo.java.lib.UtilesSwing
+---
+
+Updates
+-------
+> README.md
+> CHANGELOG.md
+> org.japo.java.events.AEM - Action Events Manager
+> org.japo.java.events.FEM - Focus Events Manager
+---
+
+Changes
+-------
+> org.japo.java.forms.GUI.java - Sample Code Added
+---
+
+Deleted
+-------
+> None
+---
+
+
 Version 0.5.0
 =============
 

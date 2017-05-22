@@ -16,54 +16,93 @@
 package org.japo.java.forms;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.Image;
+import java.net.URL;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.border.BevelBorder;
+import javax.swing.border.EmptyBorder;
+import org.japo.java.components.BackgroundPanel;
 
 /**
  *
  * @author José A. Pacheco Ondoño - joanpaon@gmail.com
  */
 public class GUI extends JFrame {
-    // Tamaño de la ventana
-    public static final int VENTANA_ANC = 400;
-    public static final int VENTANA_ALT = 300;
 
+    // Mensaje
+    private final String MESSAGE = "Once upon a time... Java";
+
+    // Referencias a componentes
+    JLabel lblMensaje;
+
+    // Constructor
     public GUI() {
-        // Inicialización PREVIA
+        // Inicializar GUI - PREVIA
         beforeInit();
 
-        // Creación del interfaz
+        // Construcción - GUI
         initComponents();
 
-        // Inicialización POSTERIOR
+        // Inicializar GUI - POSTERIOR
         afterInit();
     }
 
-    // Construcción del IGU
-    private void initComponents() {
-        // Otros componentes
-        
-        // Panel Principal
-        JPanel pnlPpal = new JPanel();
-        pnlPpal.setLayout(new BorderLayout());
-        
-        // Ventana principal
-        setTitle("App Title");
-        setContentPane(pnlPpal);
-        setResizable(false);
-        setSize(VENTANA_ANC, VENTANA_ALT);
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);        
-    }
-
-    // Inicialización antes del IGU
+    // Inicializar GUI - PREVIA
     private void beforeInit() {
 
     }
 
-    // Inicialización después del IGU
+    // Inicializar GUI - POSTERIOR
     private void afterInit() {
 
     }
 
+    // Construcción - GUI
+    private void initComponents() {
+        // Fuentes
+        Font fntLBL = new Font("Georgia", Font.PLAIN, 40);
+
+        // Bordes
+        EmptyBorder brdPNL = new EmptyBorder(20, 20, 20, 20);
+        BevelBorder brdLBL = new BevelBorder(BevelBorder.LOWERED);
+
+        // Tamaños
+        Dimension dimFRM = new Dimension(600, 300);
+
+        // Colores
+        Color colLBL = new Color(184, 244, 244);
+
+        // Etiqueta Mensaje
+        lblMensaje = new JLabel(MESSAGE);
+        lblMensaje.setFont(fntLBL);
+        lblMensaje.setOpaque(true);
+        lblMensaje.setBackground(colLBL);
+        lblMensaje.setBorder(brdLBL);
+        lblMensaje.setHorizontalAlignment(JLabel.CENTER);
+
+        // Imagen Fondo Panel - Recurso
+        String rutaIMG = "/img/background.jpg";
+        URL url = getClass().getResource(rutaIMG);
+        Image img = new ImageIcon(url).getImage();
+
+        // Panel Principal
+        JPanel pnlMain = new BackgroundPanel(img);
+        pnlMain.setBorder(brdPNL);
+        pnlMain.setLayout(new BorderLayout());
+        pnlMain.add(lblMensaje, BorderLayout.CENTER);
+
+        // Ventana principal
+        setTitle("Java App Template");
+        setContentPane(pnlMain);
+        setResizable(false);
+        setSize(dimFRM);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
 }

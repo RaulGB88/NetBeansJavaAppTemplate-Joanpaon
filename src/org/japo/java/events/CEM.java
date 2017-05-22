@@ -15,33 +15,29 @@
  */
 package org.japo.java.events;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import org.japo.java.forms.GUI;
 
 /**
  *
  * @author José A. Pacheco Ondoño - joanpaon@gmail.com
  */
-public class FEM implements FocusListener {
+public class CEM implements ChangeListener {
 
     // Referencia al igu
     private final GUI gui;
 
-    public FEM(GUI gui) {
+    public CEM(GUI gui) {
         this.gui = gui;
     }
 
     @Override
-    public void focusGained(FocusEvent e) {
-        // Evento de Foco - GANADO
-        // gui.procesarFocoGanado(e);
-    }
-
-    @Override
-    public void focusLost(FocusEvent e) {
-        // Evento de Foco - PERDIDO
-        // gui.procesarFocoPerdido(e);
+    public void stateChanged(ChangeEvent e) {
+        // Evento de Cambio
+        // gui.procesarCambio(e);
     }
 
 }

@@ -15,33 +15,33 @@
  */
 package org.japo.java.events;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
 import org.japo.java.forms.GUI;
 
 /**
  *
  * @author José A. Pacheco Ondoño - joanpaon@gmail.com
  */
-public class FEM implements FocusListener {
+public class MMEM implements MouseMotionListener {
 
     // Referencia al igu
     private final GUI gui;
 
-    public FEM(GUI gui) {
+    public MMEM(GUI gui) {
         this.gui = gui;
     }
 
     @Override
-    public void focusGained(FocusEvent e) {
-        // Evento de Foco - GANADO
-        // gui.procesarFocoGanado(e);
+    public void mouseDragged(MouseEvent e) {
+        // Evento de Ratón - Arrastre
+        // gui.procesarArrastreRaton(e);
     }
 
     @Override
-    public void focusLost(FocusEvent e) {
-        // Evento de Foco - PERDIDO
-        // gui.procesarFocoPerdido(e);
+    public void mouseMoved(MouseEvent e) {
+        // Evento de Ratón - Movimiento
+        // gui.procesarMovimientoRaton(e);
     }
 
 }
