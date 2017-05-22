@@ -24,7 +24,7 @@ import javax.swing.JFrame;
 public class UtilesSwing {
     // Cerrar programa
 
-    public void terminarPrograma(JFrame f) {
+    public static void terminarPrograma(JFrame f) {
         // Oculta la ventana
         f.setVisible(false);
 
