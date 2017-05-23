@@ -24,7 +24,7 @@ import org.japo.java.forms.GUI;
  */
 public class KEM extends KeyAdapter {
 
-    // Referencia al igu
+    // Referencia al Interfaz
     private final GUI gui;
 
     public KEM(GUI gui) {

@@ -25,7 +25,7 @@ import org.japo.java.forms.GUI;
  */
 public class AEM implements ActionListener {
 
-    // Referencia al igu
+    // Referencia al Interfaz
     private final GUI gui;
 
     public AEM(GUI gui) {
@@ -34,7 +34,6 @@ public class AEM implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        // Evento de Acción
         // gui.procesarAccion(e);
     }
 

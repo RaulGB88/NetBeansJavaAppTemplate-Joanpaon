@@ -25,7 +25,7 @@ import org.japo.java.forms.GUI;
  */
 public class MWEM implements MouseWheelListener {
 
-    // Referencia al igu
+    // Referencia al Interfaz
     private final GUI gui;
 
     public MWEM(GUI gui) {
@@ -34,7 +34,6 @@ public class MWEM implements MouseWheelListener {
 
     @Override
     public void mouseWheelMoved(MouseWheelEvent e) {
-        // Evento de Raton - Movimiento Rueda
         // gui.procesarMovimientoRueda();
     }
 

@@ -1,32 +1,90 @@
 <pre>
 
+Version 0.5.3
+=============
+
+Info
+----
+Date ....: 23/05/2017
+---
+
+Added
+-----
+> resources/img/favicon.png
+---
+
+Updated
+-------
+> README.md
+> CHANGELOG.md
+> org.japo.java.forms.GUI.java
+> org.japo.java.events.AEM.java
+> org.japo.java.events.CEM.java
+> org.japo.java.events.FEM.java
+> org.japo.java.events.KEM.java
+> org.japo.java.events.MEM.java
+> org.japo.java.events.MMEM.java
+> org.japo.java.events.MWEM.java
+> org.japo.java.events.WEM.java
+---
+
+Deleted
+-------
+> None
+---
+
+Version 0.5.2
+=============
+
+Info
+----
+Date ....: 22/05/2017
+---
+
+Added
+-----
+> None
+---
+
+Updated
+-------
+> README.md
+> CHANGELOG.md
+> org.japo.java.lib.UtilesSwing - terminarPrograma
+---
+
+Changes
+-------
+> None
+---
+
+Deleted
+-------
+> None
+---
+
 Version 0.5.1
 =============
 
 Info
 ----
 Date ....: 22/05/2017
-Purpose .: Manual Coded Swing Projects
 ---
 
-Additions
----------
+Added
+-----
 > org.japo.java.events.CEM - Change Events Manager
 > org.japo.java.events.MMEM - Mouse Motion Event Manager
 > org.japo.java.events.MMEM - Mouse Wheel Event Manager
 > org.japo.java.lib.UtilesSwing
 ---
 
-Updates
+Updated
 -------
 > README.md
 > CHANGELOG.md
 > org.japo.java.events.AEM - Action Events Manager
 > org.japo.java.events.FEM - Focus Events Manager
----
-
-Changes
--------
 > org.japo.java.forms.GUI.java - Sample Code Added
 ---
 
@@ -35,18 +93,16 @@ Deleted
 > None
 ---
 
-
 Version 0.5.0
 =============
 
 Info
 ----
 Date ....: 17/04/2017
-Purpose .: Manual Coded Swing Projects
 ---
 
-Additions
----------
+Added
+-----
 > Swing Formularies package
   org.japo.java.forms
 > Graphic User Interface class template
@@ -70,14 +126,10 @@ Additions
   background.jpg
 ---
 
-Updates
+Updated
 -------
 > README.md
 > CHANGELOG.md
----
-
-Changes
--------
 > org.japo.java.main.App.java  - Added method
   launchGUI - Launch GUI
 > org.japo.java.main.App.java  - Updated method
@@ -95,11 +147,10 @@ Version 0.4.0
 Info
 ----
 Date ....: 17/04/2017
-Purpose .: OOP Code Projects
 ---
 
-Additions
----------
+Added
+-----
 > Interfaces Package
   org.japo.java.interfaces
 > Sample Interface
@@ -110,15 +161,10 @@ Additions
   Capacity.java
 ---
 
-Updates
+Updated
 -------
 > README.md
 > CHANGELOG.md
----
-
-Changes
--------
-> None
 ---
 
 Deleted
@@ -132,10 +178,9 @@ Version 0.3.0
 Info
 ----
 Date ....: 17/04/2017
-Purpose .: Modularized Code + Library Projects
 ---
 
-Additions
+Added
 ---------
 > Local Libraries Code Package
   org.japo.java.lib
@@ -143,15 +188,10 @@ Additions
   UtilesDNI.java
 ---
 
-Updates
+Updated
 -------
 > README.md
 > CHANGELOG.md
----
-
-Changes
--------
-> None
 ---
 
 Deleted
@@ -165,27 +205,21 @@ Version 0.2.0
 Info
 ----
 Date ....: 17/04/2017
-Purpose .: Modularized Code Projects
 ---
 
-Additions
----------
+Added
+-----
 > Functional Mechanism App Package
   org.japo.java.app
 > Functional Mechanism App Class
   App.java
 ---
 
-Updates
+Updated
 -------
 > Main class dependencies
 > README.md
 > CHANGELOG.md
----
-
-Changes
--------
-> None
 ---
 
 Deleted
@@ -199,11 +233,10 @@ Version 0.1.0
 Info
 ----
 Date ....: 17/04/2017
-Purpose .: Beginner Projects
 ---
 
-Additions
----------
+Added
+-----
 > Starting Point App Package
   org.japo.java.main
 > Starting Point App Class
@@ -217,12 +250,7 @@ Additions
   Apache 2.0
 ---
 
-Updates
--------
-> None
----
-
-Changes
+Updated
 -------
 > None
 ---

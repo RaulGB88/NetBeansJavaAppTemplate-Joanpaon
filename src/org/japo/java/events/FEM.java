@@ -25,7 +25,7 @@ import org.japo.java.forms.GUI;
  */
 public class FEM implements FocusListener {
 
-    // Referencia al igu
+    // Referencia al Interfaz
     private final GUI gui;
 
     public FEM(GUI gui) {
@@ -34,13 +34,11 @@ public class FEM implements FocusListener {
 
     @Override
     public void focusGained(FocusEvent e) {
-        // Evento de Foco - GANADO
         // gui.procesarFocoGanado(e);
     }
 
     @Override
     public void focusLost(FocusEvent e) {
-        // Evento de Foco - PERDIDO
         // gui.procesarFocoPerdido(e);
     }
 

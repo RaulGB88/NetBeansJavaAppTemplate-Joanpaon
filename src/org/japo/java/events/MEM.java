@@ -24,7 +24,7 @@ import org.japo.java.forms.GUI;
  */
 public class MEM extends MouseAdapter {
 
-    // Referencia al igu
+    // Referencia al Interfaz
     private final GUI gui;
 
     public MEM(GUI gui) {

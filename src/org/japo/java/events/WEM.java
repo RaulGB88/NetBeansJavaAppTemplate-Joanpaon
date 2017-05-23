@@ -24,7 +24,7 @@ import org.japo.java.forms.GUI;
  */
 public class WEM extends WindowAdapter {
 
-    // Referencia al igu
+    // Referencia al Interfaz
     private final GUI gui;
 
     public WEM(GUI gui) {

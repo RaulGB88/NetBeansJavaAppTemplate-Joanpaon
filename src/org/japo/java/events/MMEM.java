@@ -25,7 +25,7 @@ import org.japo.java.forms.GUI;
  */
 public class MMEM implements MouseMotionListener {
 
-    // Referencia al igu
+    // Referencia al Interfaz
     private final GUI gui;
 
     public MMEM(GUI gui) {
@@ -34,13 +34,11 @@ public class MMEM implements MouseMotionListener {
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        // Evento de Ratón - Arrastre
         // gui.procesarArrastreRaton(e);
     }
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        // Evento de Ratón - Movimiento
         // gui.procesarMovimientoRaton(e);
     }
 
