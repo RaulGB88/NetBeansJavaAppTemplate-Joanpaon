@@ -1,5 +1,55 @@
 <pre>
 
+Version 0.5.5
+=============
+
+Info
+----
+Date ....: 24/05/2017
+---
+
+Added
+-----
+> app.properties
+---
+
+Updated
+-------
+> README.md
+> CHANGELOG.md
+---
+
+Deleted
+-------
+> None
+---
+
+Version 0.5.4
+=============
+
+Info
+----
+Date ....: 24/05/2017
+---
+
+Added
+-----
+> org.japo.java.lib.UtilesApp
+---
+
+Updated
+-------
+> README.md
+> CHANGELOG.md
+> org.japo.java.forms.GUI.java
+> org.japo.java.events.WEM.java
+---
+
+Deleted
+-------
+> None
+---
+
 Version 0.5.3
 =============
 
