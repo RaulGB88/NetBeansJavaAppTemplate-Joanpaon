@@ -16,6 +16,7 @@
 package org.japo.java.events;
 
 import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import org.japo.java.forms.GUI;
 
 /**
@@ -31,4 +32,9 @@ public class WEM extends WindowAdapter {
         this.gui = gui;
     }
 
+    // Cierre Iniciado
+    @Override
+    public void windowClosing(WindowEvent e) {
+        gui.procesarCerrarVentana(e);
+    }
 }

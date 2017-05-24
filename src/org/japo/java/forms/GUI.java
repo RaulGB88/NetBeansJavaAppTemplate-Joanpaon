@@ -16,19 +16,24 @@
 package org.japo.java.forms;
 
 import java.awt.Image;
+import java.awt.event.WindowEvent;
 import java.net.URL;
+import java.util.Properties;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import org.japo.java.components.BackgroundPanel;
+import org.japo.java.lib.UtilesApp;
 
 /**
  *
  * @author José A. Pacheco Ondoño - joanpaon@gmail.com
  */
 public class GUI extends JFrame {
-    // Campos
-    
+
+    // Propiedades APP
+    private Properties prpApp;
+
     // Constructor
     public GUI() {
         // Inicializar GUI - PREVIA
@@ -43,12 +48,15 @@ public class GUI extends JFrame {
 
     // Inicializar GUI - PREVIA
     private void beforeInit() {
+        // Restaurar Estado Previo
+        restaurarEstado();
 
+        // Otras inicializaciones
     }
 
     // Inicializar GUI - POSTERIOR
     private void afterInit() {
-
+        // Otras inicializaciones
     }
 
     // Construcción - GUI
@@ -75,4 +83,24 @@ public class GUI extends JFrame {
         setIconImage(imgICN);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+
+    public void procesarCerrarVentana(WindowEvent e) {
+        // Memorizar Estado Actual
+        memorizarEstado();
+    }
+
+    private void memorizarEstado() {
+        // Memoriza Estado Actual
+
+        // Guardar Estado Actual
+        UtilesApp.guardarPropiedades(prpApp);
+    }
+
+    private void restaurarEstado() {
+        // Carga Propiedades App
+        prpApp = UtilesApp.cargarPropiedades();
+
+        // Restaura Estado Previo
+    }
+
 }
