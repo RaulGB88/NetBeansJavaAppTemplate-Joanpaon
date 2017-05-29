@@ -28,6 +28,7 @@ public class WEM extends WindowAdapter {
     // Referencia al Interfaz
     private final GUI gui;
 
+    // Constructor
     public WEM(GUI gui) {
         this.gui = gui;
     }

@@ -22,8 +22,8 @@ import javax.swing.JFrame;
  * @author José A. Pacheco Ondoño - joanpaon@gmail.com
  */
 public class UtilesSwing {
-    // Cerrar programa
 
+    // Cerrar programa
     public static void terminarPrograma(JFrame f) {
         // Oculta la ventana
         f.setVisible(false);
@@ -35,4 +35,16 @@ public class UtilesSwing {
         System.exit(0);
     }
 
+    // Establecer LnF
+    public static void establecerLnF(String lnf) {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if (lnf.equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                }
+            }
+        } catch (Exception e) {
+            System.out.println(e.getLocalizedMessage());
+        }
+    }
 }

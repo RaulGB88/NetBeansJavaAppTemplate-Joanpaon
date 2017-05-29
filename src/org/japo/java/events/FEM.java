@@ -28,6 +28,7 @@ public class FEM implements FocusListener {
     // Referencia al Interfaz
     private final GUI gui;
 
+    // Constructor
     public FEM(GUI gui) {
         this.gui = gui;
     }

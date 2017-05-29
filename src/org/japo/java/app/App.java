@@ -33,7 +33,7 @@ public class App {
     }
 
     // Lanzar Interfaz Grafico de Usuario
-    public void launchGUI() {
+    private void launchGUI() {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -45,5 +45,4 @@ public class App {
             }
         });
     }
-
 }

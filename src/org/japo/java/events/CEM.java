@@ -28,6 +28,7 @@ public class CEM implements ChangeListener {
     // Referencia al Interfaz
     private final GUI gui;
 
+    // Constructor
     public CEM(GUI gui) {
         this.gui = gui;
     }
