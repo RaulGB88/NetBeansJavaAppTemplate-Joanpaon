@@ -1,6 +1,16 @@
 <pre>
 
-Version 0.6.0 - 24/05/2017
+Version 0.6.1 - 29/05/2017
+==========================
+
+Updated
+-------
+> README.md
+> CHANGELOG.md
+> org.japo.java.forms.GUI.java
+---
+
+Version 0.6.0 - 29/05/2017
 ==========================
 
 Added
