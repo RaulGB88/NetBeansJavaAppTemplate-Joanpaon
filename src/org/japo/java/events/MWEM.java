@@ -28,6 +28,7 @@ public class MWEM implements MouseWheelListener {
     // Referencia al Interfaz
     private final GUI gui;
 
+    // Constructor
     public MWEM(GUI gui) {
         this.gui = gui;
     }

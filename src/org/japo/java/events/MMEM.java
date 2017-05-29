@@ -28,6 +28,7 @@ public class MMEM implements MouseMotionListener {
     // Referencia al Interfaz
     private final GUI gui;
 
+    // Constructor
     public MMEM(GUI gui) {
         this.gui = gui;
     }

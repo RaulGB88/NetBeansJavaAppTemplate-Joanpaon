@@ -1,5 +1,26 @@
 <pre>
 
+Version 0.6.0 - 24/05/2017
+==========================
+
+Added
+-----
+> org.japo.java.forms.GUI.java (Matisse JForm)
+---
+
+Updated
+-------
+> README.md
+> CHANGELOG.md
+> org.japo.java.lib.UtilesSwing.java
+> app.properties
+---
+
+Deleted
+-------
+> org.japo.java.forms.GUI.java (Swing JForm)
+---
+
 Version 0.5.5
 =============
 

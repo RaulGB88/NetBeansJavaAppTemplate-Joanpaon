@@ -27,6 +27,7 @@ public class KEM extends KeyAdapter {
     // Referencia al Interfaz
     private final GUI gui;
 
+    // Constructor
     public KEM(GUI gui) {
         this.gui = gui;
     }
